@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BundledCables", "BundledCables\BundledCables.csproj", "{B981C520-E056-4033-B8C0-D93E06CD6385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stationeers.Texture.Processor", "Plugins\Stationeers.Texture.Processor\Stationeers.Texture.Processor.csproj", "{D1FC2123-8FDA-4198-965E-CDB1301EBE1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B981C520-E056-4033-B8C0-D93E06CD6385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B981C520-E056-4033-B8C0-D93E06CD6385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B981C520-E056-4033-B8C0-D93E06CD6385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B981C520-E056-4033-B8C0-D93E06CD6385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FC2123-8FDA-4198-965E-CDB1301EBE1F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D1FC2123-8FDA-4198-965E-CDB1301EBE1F}.Release|Any CPU.ActiveCfg = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C070147-CE2A-41A9-B473-F09C9F7B78D8}
+	EndGlobalSection
+EndGlobal
