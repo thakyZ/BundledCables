@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style type="text/css">
+    rect {
+      --red: #D80400;
+      --green: #427633;
+      --blue: #1E3f5A;
+    }
+    g {
+      --rotation: -45deg;
+      transform-origin: 50% 50%;
+      transform: rotate(var(--rotation)) scale(141%)
+    }
+    #red-def {
+      fill: var(--red);
+      transform: scaleY(calc((3 / 9) * 100%)) translateY(calc((3 / 9) * 0%));
+      outline: 1px solid var(--red)
+    }
+    #green-def {
+      fill: var(--green);
+      transform: scaleY(calc((3 / 9) * 100%)) translateY(calc((3 / 9) * 300%));
+      outline: 1px solid var(--green)
+    }
+    #blue-def {
+      fill: var(--blue);
+      transform: scaleY(calc((3 / 9) * 100%)) translateY(calc((3 / 9) * 600%));
+      outline: 1px solid var(--blue)
+    }
+  </style>
+  <g id="group" style="transform-origin: 50% 50%;transform:rotate(var(--rotation)) scale(141%);">
+    <rect x="-50%" y="0" width="200%" height="100%" id="red-def" fill="var(--red)" style="transform:scaleY(calc((3 / 9) * 100%)) translateY(calc((3 / 9) * 0%));outline:1px solid var(--red);" />
+    <rect x="-50%" y="0" width="200%" height="100%" id="green-def" fill="var(--green)" style="transform:scaleY(calc((3 / 9) * 100%)) translateY(calc((3 / 9) * 300%));outline:1px solid var(--green);" />
+    <rect x="-50%" y="0" width="200%" height="100%" id="blue-def" fill="var(--blue)" style="transform:scaleY(calc((3 / 9) * 100%)) translateY(calc((3 / 9) * 600%));outline:1px solid var(--blue);"  />
+  </g>
+  <!-- The outcome of this markup should result in:
+  <rect style="fill:#d80400" x="0" y="0" width="512" height="85.333333" />
+  <rect style="fill:#427633" x="0" y="85.333333" width="512" height="85.333333" />
+  <rect style="fill:#1e3f5a" x="0" y="170.66666" width="512" height="85.333333" />
+  -->
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Neko Boi Nick</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Neko Gaming</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>English</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

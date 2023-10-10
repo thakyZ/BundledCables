@@ -1,0 +1,97 @@
+{
+  "Image": "template.png",
+  "Grid": {
+    "Width": 256,
+    "Height": 256
+  },
+  "ColorMap": [
+    {
+      "Position": {
+        "X": 0,
+        "Y": 0
+      },
+      "Colors": {
+        "Red": "FFBABD",
+        "Green": "AADB96",
+        "Blue": "A5B8C6"
+      }
+    },
+    {
+      "Position": {
+        "X": 1,
+        "Y": 0
+      },
+      "Colors": {
+        "Red": "FF9A9C",
+        "Green": "7BD076",
+        "Blue": "6F8EA8"
+      }
+    },
+    {
+      "Position": {
+        "X": 2,
+        "Y": 0
+      },
+      "Colors": {
+        "Red": "FF4F4E",
+        "Green": "5DC155",
+        "Blue": "A5B8C6"
+      }
+    },
+    {
+      "Position": {
+        "X": 3,
+        "Y": 0
+      },
+      "Colors": {
+        "Red": "E70200",
+        "Green": "3F9B39",
+        "Blue": "2C5B84"
+      }
+    },
+    {
+      "Position": {
+        "X": 0,
+        "Y": 1
+      },
+      "Colors": {
+        "Red": "D80400",
+        "Green": "427633",
+        "Blue": "1E3F5A"
+      }
+    },
+    {
+      "Position": {
+        "X": 1,
+        "Y": 1
+      },
+      "Colors": {
+        "Red": "B2160D",
+        "Green": "295120",
+        "Blue": "00294D"
+      }
+    },
+    {
+      "Position": {
+        "X": 2,
+        "Y": 1
+      },
+      "Colors": {
+        "Red": "7E241E",
+        "Green": "204218",
+        "Blue": "00213C"
+      }
+    },
+    {
+      "Position": {
+        "X": 3,
+        "Y": 1
+      },
+      "Colors": {
+        "Red": "4D1815",
+        "Green": "132B0D",
+        "Blue": "00101B"
+      }
+    }
+  ]
+}

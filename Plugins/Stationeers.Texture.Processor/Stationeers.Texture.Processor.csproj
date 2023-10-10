@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>Enable</Nullable>
+    <OutputPath>$(ProjectDir)build\</OutputPath>
+    <BaseOutputPath>$(OutputPath)</BaseOutputPath>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <RootNamespace>NekoBoiNick.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <Configurations>Debug</Configurations>
+    <StartupObject>NekoBoiNick.$(MSBuildProjectName.Replace(" ", "_")).ConsoleApp</StartupObject>
+</PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="$(SolutionDir).editorconfig" />
+    <None Include="$(SolutionDir).editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Svg.Skia" Version="1.0.0.2" />
+  </ItemGroup>
+</Project>
