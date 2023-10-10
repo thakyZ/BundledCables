@@ -568,3 +568,6 @@ TempArtifacts/
 **/*Unity/**/PackageManager/*Cache*
 **/ExampleLibs/**
 !**/ExampleLibs/.gitkeep
+**/libs/*.dll
+**/Assemblies/*.dll
+**/Assemblies/*.dll.meta
