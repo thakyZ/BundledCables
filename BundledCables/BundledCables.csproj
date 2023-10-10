@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>
+    <ModName>BundledCables</ModName>
+    <UserDir>$(HOMEDRIVE)$(HOMEPATH)</UserDir>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Platforms>x64;AnyCPU</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityInstallDir>C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor</UnityInstallDir>
+    <StationeersInstallDir>E:\SteamLibrary\SteamApps\common\Stationeers\</StationeersInstallDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Lib.Harmony" Version="2.2.2" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(StationeersInstallDir)rocketstation_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="StationeersMods.Interface">
+      <HintPath>$(SolutionDir)Unity\Assets\StationeersMods\StationeersMods.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(StationeersInstallDir)rocketstation_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(StationeersInstallDir)rocketstation_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>$(StationeersInstallDir)rocketstation_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <!--
+   # Disabled due to the following warning:
+   # "$(MSBuildToolsPath)\Microsoft.CSharp.targets" cannot be imported again. It was already imported at "$(ProjectDir)\BundledCables.csproj (32,3)". This is most likely a build authoring error. This subsequent import will be ignored.
+   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  -->
+  <ItemGroup>
+    <_CopyItemsGameData Include="$(ProjectDir)\GameData\**\*.*" />
+    <_CopyItemsAbout Include="$(ProjectDir)\About\**\*.*" />
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <RemoveDir Directories="$(UserDir)\Documents\My Games\Stationeers\mods\$(ModName)" />
+    <Copy SourceFiles="$(ProjectDir)\$(ModName).info" DestinationFolder="$(UserDir)\Documents\My Games\Stationeers\mods\$(ModName)" ContinueOnError="false" />
+    <Copy SourceFiles="$(ProjectDir)\bin\Debug\$(ModName).dll" DestinationFolder="$(UserDir)\Documents\My Games\Stationeers\mods\$(ModName)" ContinueOnError="true" />
+    <Copy SourceFiles="@(_CopyItemsGameData)" DestinationFolder="$(UserDir)\Documents\My Games\Stationeers\mods\$(ModName)\GameData\%(RecursiveDir)" ContinueOnError="true" />
+    <Copy SourceFiles="@(_CopyItemsAbout)" DestinationFolder="$(UserDir)\Documents\My Games\Stationeers\mods\$(ModName)\About\%(RecursiveDir)" ContinueOnError="true" />
+  </Target>
+</Project>

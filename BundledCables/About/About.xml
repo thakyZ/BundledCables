@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Bundled Cables [StationeersMods]</Name>
+  <Author>Neko Boi Nick &amp; Cat2002</Author>
+  <Version>0.2.3773.18265.1</Version>
+  <Description>[h1]Bundled Cables[/h1]
+[b]WARNING:[/b] This is a StationeersMods Plugin Mod. It requires BepInEx to be installed with the StationeersMods plugin.
+See: https://github.com/jixxed/StationeersMods
+
+Adds bundled cables for multiple different colored cables on one line.
+  </Description>
+  <InGameDescription>
+<![CDATA[<size="30"><color=#ffa500> Bundled Cables </color></size>
+<b>WARNING:</b> <color=#ff0000>This is a StationeersMods Plugin Mod. It requires BepInEx to be installed with the StationeersMods plugin.</color>
+See: https://github.com/jixxed/StationeersMods
+
+Adds bundled cables for multiple different colored cables on one line.
+]]>
+  </InGameDescription>
+  <Tags />
+</ModMetadata>
