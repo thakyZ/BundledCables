@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 1956392858
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84cbdef7ee1dd59c544a15d22622e74e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2cd843b1bcb5229c5711037f62d68203
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Texture2D/StructureCableJunctionB6.png
+- Assets/Mesh/CableBundledCorner3.asset
+- Assets/Mesh/CableBundledCorner4.asset
+- Assets/Mesh/StructureCableStraightB_outline.asset
+- Assets/Mesh/StructureCableCornerB_outline.asset
+- Assets/Sprite/StructureCableCorner3BBurnt.asset
+- Assets/Sprite/StructureCableJunctionB5.asset
+- Assets/Texture2D/StructureCableJunctionB.png
+- Assets/Texture2D/StructureCableCorner3BBurnt.png
+- Assets/Mesh/CableBundledJunction4Burnt.asset
+- Assets/Sprite/StructureCableStraightBBurnt.asset
+- Assets/Texture2D/StructureCableCornerB3.png
+- Assets/Mesh/CableBundledCorner4Burnt.asset
+- Assets/Mesh/CableBundledStraightBurnt.asset
+- Assets/Mesh/ItemCableCoilBundled_outline.asset
+- Assets/Mesh/CableBundledJunction6.asset
+- Assets/Texture2D/StructureCableStraigBtH.png
+- Assets/Mesh/StructureCableCornerB4_outline.asset
+- Assets/Sprite/StructureCableCornerBBurnt.asset
+- Assets/Mesh/StructureCableCornerB3_outline.asset
+- Assets/Mesh/StructureCableCornerBBurnt_outline.asset
+- Assets/Texture2D/StructureCableJunction6BBurnt.png
+- Assets/Texture2D/color_multicolor.png
+- Assets/Mesh/StructureCableJunctionB6_outline.asset
+- Assets/Sprite/StructureCableJunction4BBurnt.asset
+- Assets/Sprite/StructureCableJunctionB4.asset
+- Assets/Texture2D/StructureCableJunctionB5Burnt.png
+- Assets/Mesh/StructureCableJunctionB4_outline.asset
+- Assets/Texture2D/StructureCableJunctionB5.png
+- Assets/Texture2D/StructureCableStraigBtHBurnt.png
+- Assets/Sprite/StructureCableCornerB4.asset
+- Assets/Sprite/StructureCableJunctionB6.asset
+- Assets/Sprite/StructureCableJunctionBBurnt.asset
+- Assets/Sprite/StructureCableJunction6BBurnt.asset
+- Assets/Mesh/StructureCableJunction4BBurnt_outline.asset
+- Assets/Mesh/StructureCableCorner4BBurnt_outline.asset
+- Assets/Sprite/StructureCableCornerB.asset
+- Assets/Mesh/StructureCableJunctionBBurnt_outline.asset
+- Assets/Mesh/CableBundledJunction.asset
+- Assets/Texture2D/StructureCableJunction4BBurnt.png
+- Assets/Mesh/StructureCableJunctionB_outline.asset
+- Assets/Mesh/CableBundledJunction5_outline.asset
+- Assets/Sprite/StructureCableCorner4BBurnt.asset
+- Assets/Mesh/CableBundledCorner.asset
+- Assets/Mesh/StructureCableJunction6BBurnt_outline.asset
+- Assets/Sprite/StructureCableJunctionB.asset
+- Assets/Texture2D/StructureCableCornerB4.png
+- Assets/Texture2D/ItemCableCoilBundled.png
+- Assets/Sprite/ItemCableCoilBundled.asset
+- Assets/Mesh/CableBundledCornerBurnt.asset
+- Assets/Mesh/StructureCableJunctionB5Burnt_outline.asset
+- Assets/Texture2D/StructureCableCornerBBurnt.png
+- Assets/Texture2D/StructureCableCorner4BBurnt.png
+- Assets/Mesh/CableBundledCorner3Burnt.asset
+- Assets/Mesh/CableBundledJunctionBurnt.asset
+- Assets/Mesh/StructureCableStraightBBurnt_outline.asset
+- Assets/Mesh/ItemCableCoilBundled.asset
+- Assets/Material/color_multicolor.mat
+- Assets/Avatar/CableBundledAvatar.asset
+- Assets/Texture2D/StructureCableCornerB.png
+- Assets/Mesh/CableBundledJunction5.asset
+- Assets/Texture2D/StructureCableJunctionBBurnt.png
+- Assets/Mesh/CableBundledJunction5Burnt.asset
+- Assets/Mesh/CableBundledJunction4.asset
+- Assets/Texture2D/StructureCableJunctionB4.png
+- Assets/Mesh/CableBundledStraight.asset
+- Assets/Mesh/StructureCableCorner3BBurnt_outline.asset
+- Assets/Sprite/StructureCableJunctionB5Burnt.asset
+- Assets/Mesh/CableBundledJunction6Burnt.asset
+- Assets/Sprite/StructureCableCornerB3.asset
+- Assets/Sprite/StructureCableStraightB.asset
+Dependencies: []

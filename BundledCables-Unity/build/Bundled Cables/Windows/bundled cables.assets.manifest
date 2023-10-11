@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 4249444626
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87771763d94df041f6314c0578d74dc0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c75b208c9e44018b248d5266611906fe
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1200417347, guid: ccbc10cb06b9d5647a8075378f0aa440, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PrefabInstance/CableBundledCorner4Burnt.prefab
+- Assets/PrefabInstance/CableBundledJunction6.prefab
+- Assets/PrefabInstance/CableBundledJunction.prefab
+- Assets/PrefabInstance/CableBundledJunction4.prefab
+- Assets/PrefabInstance/CableBundledCorner3Burnt.prefab
+- Assets/StationeersMods/Resources/ExportSettings.asset
+- Assets/PrefabInstance/CableBundledJunction4Burnt.prefab
+- Assets/PrefabInstance/CableBundledStraightBurnt.prefab
+- Assets/PrefabInstance/CableBundledCorner3.prefab
+- Assets/PrefabInstance/CableBundledJunction6Burnt.prefab
+- Assets/PrefabInstance/CableBundledCornerBurnt.prefab
+- Assets/PrefabInstance/CableBundledStraight.prefab
+- Assets/PrefabInstance/ItemCableCoilBundled.prefab
+- Assets/PrefabInstance/CableBundledJunction5Burnt.prefab
+- Assets/PrefabInstance/CableBundledCorner.prefab
+- Assets/PrefabInstance/CableBundledJunctionBurnt.prefab
+- Assets/PrefabInstance/CableBundledJunction5.prefab
+- Assets/PrefabInstance/CableBundled-AIO.prefab
+- Assets/PrefabInstance/CableBundledCorner4.prefab
+Dependencies:
+- C:/Users/thaky/Development/Git/Games/Stationeers/BundledCables/BundledCables-Unity/Temp/Bundled
+  Cables/Windows/bundled-cables

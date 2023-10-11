@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 2730740964
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bundled-cables
+      Dependencies: {}
+    Info_1:
+      Name: bundled cables.assets
+      Dependencies:
+        Dependency_0: bundled-cables
+    Info_2:
+      Name: bundled cables.scenes
+      Dependencies: {}

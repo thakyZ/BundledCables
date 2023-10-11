@@ -572,3 +572,6 @@ TempArtifacts/
 **/Assemblies/*.dll
 **/Assemblies/*.dll.meta
 /.soup
+!**/*-Unity/build/
+**/*-Unity/build/**/About/
+**/*-Unity/build/**/GameData/
