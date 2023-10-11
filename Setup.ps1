@@ -33,7 +33,7 @@ $ManagedPath = (Join-Path -Path (Get-StationeersDirectory).FullName -ChildPath "
 $BepInExPath = (Join-Path -Path (Get-StationeersDirectory).FullName -ChildPath "BepInEx" -AdditionalChildPath @("core"));
 
 $UnityAssemblyFiles.Managed = (((Get-ChildItem -Path $ManagedPath) | Where-Object {
-      Return -not $_.BaseName.StartsWith("UnityEngine") -and -not $_.BaseName.StartsWith("Unity") -and -not $_.BaseName.StartsWith("UnityEngine")
+      Return -not $_.BaseName.StartsWith("UnityEngine") -and -not ($_.BaseName.StartsWith("Unity") -and -not $_.Name.Equals("Unity.TextMeshPro.dll") -and -not $_.Name.Equals("Unity.Collections.dll")) -and -not $_.BaseName.StartsWith("UnityEngine")
     }).Name);
 
 
