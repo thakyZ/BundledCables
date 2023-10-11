@@ -8,11 +8,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>BundledCables</RootNamespace>
-    <ProjectGuid>{321B5864-752F-DC39-13EB-7DDD1AFEC867}</ProjectGuid>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F74E6C51-54CC-CF74-6C17-57295C984DB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Bundled Cables</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,11 +56,90 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BundledCables.cs" />
-    <Compile Include="Assets\Scripts\BundledCablesHandler.cs" />
+    <Compile Include="Assets\BundledCablesHandler.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\BundledCables.asmdef" />
+    <None Include="Assets\Assemblies\System.IdentityModel.dll" />
+    <None Include="Assets\Assemblies\UniTask.TextMeshPro.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Text.Json.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Reflection.Metadata.dll" />
+    <None Include="Assets\Assemblies\System.Drawing.Design.dll" />
+    <None Include="Assets\Assemblies\System.Security.dll" />
+    <None Include="Assets\Assemblies\System.Net.Http.dll" />
+    <None Include="Assets\Assemblies\System.Configuration.dll" />
+    <None Include="Assets\Assemblies\Sentry.Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="Assets\Assemblies\RW.RocketNet.dll" />
+    <None Include="Assets\Assemblies\System.Xml.dll" />
+    <None Include="Assets\Assemblies\System.Data.DataSetExtensions.dll" />
+    <None Include="Assets\Assemblies\System.EnterpriseServices.dll" />
+    <None Include="Assets\Assemblies\System.DirectoryServices.dll" />
+    <None Include="Assets\Assemblies\System.Design.dll" />
+    <None Include="Assets\Assemblies\Assembly-CSharp.dll" />
+    <None Include="Assets\Assemblies\System.Runtime.dll" />
+    <None Include="Assets\Assemblies\System.Xml.Linq.dll" />
+    <None Include="Assets\StationeersMods\StationeersMods.Interface.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Assets\Assemblies\System.Data.dll" />
+    <None Include="Assets\Assemblies\Facepunch.Steamworks.Win64.dll" />
+    <None Include="Assets\Assemblies\Sentry.Unity.Native.dll" />
+    <None Include="Assets\Assemblies\System.Transactions.dll" />
+    <None Include="Assets\Assemblies\System.Web.Services.dll" />
+    <None Include="Assets\Assemblies\System.ServiceModel.Internals.dll" />
+    <None Include="Assets\Assemblies\Mono.Security.dll" />
+    <None Include="Assets\Assemblies\System.Numerics.dll" />
+    <None Include="Assets\Assemblies\System.IdentityModel.Selectors.dll" />
+    <None Include="Assets\Assemblies\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Assets\Assemblies\DOTween.dll" />
+    <None Include="Assets\Assemblies\0Harmony.dll" />
+    <None Include="Assets\Assemblies\Mono.Posix.dll" />
+    <None Include="Assets\Assemblies\System.Web.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Text.Encodings.Web.dll" />
+    <None Include="Assets\Assemblies\io.sentry.unity.runtime.dll" />
+    <None Include="Assets\Assemblies\ch.sycoforge.Logging.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Buffers.dll" />
+    <None Include="Assets\Assemblies\ch.sycoforge.Unity.Runtime.dll" />
+    <None Include="Assets\Assemblies\System.IO.Compression.FileSystem.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Threading.Tasks.Extensions.dll" />
+    <None Include="Assets\Assemblies\RG.ImGui.Unity.dll" />
+    <None Include="Assets\Assemblies\System.Web.ApplicationServices.dll" />
+    <None Include="Assets\Assemblies\Ookii.Dialogs.dll" />
+    <None Include="Assets\Assemblies\Sentry.Unity.dll" />
+    <None Include="Assets\Assemblies\Newtonsoft.Json.dll" />
+    <None Include="Assets\Assemblies\Mono.WebBrowser.dll" />
+    <None Include="Assets\Assemblies\mscorlib.dll" />
+    <None Include="Assets\Assemblies\Mono.Data.Sqlite.dll" />
+    <None Include="Assets\Assemblies\System.IO.Compression.dll" />
+    <None Include="Assets\Assemblies\System.ComponentModel.Composition.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Memory.dll" />
+    <None Include="Assets\Assemblies\NaughtyAttributes.Core.dll" />
+    <None Include="Assets\Assemblies\UniTask.Linq.dll" />
+    <None Include="Assets\Assemblies\UniTask.Addressables.dll" />
+    <None Include="Assets\Assemblies\UniTask.dll" />
+    <None Include="Assets\Assemblies\Unity.TextMeshPro.dll" />
+    <None Include="Assets\Assemblies\Sentry.dll" />
+    <None Include="Assets\Assemblies\MonoMod.RuntimeDetour.dll" />
+    <None Include="Assets\Assemblies\MonoMod.Utils.dll" />
+    <None Include="Assets\StationeersMods\StationeersMods.Shared.dll" />
+    <None Include="Assets\Assemblies\System.ComponentModel.DataAnnotations.dll" />
+    <None Include="Assets\Assemblies\Unity.Collections.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Numerics.Vectors.dll" />
+    <None Include="Assets\Assemblies\netstandard.dll" />
+    <None Include="Assets\Assemblies\NaughtyAttributes.Test.dll" />
+    <None Include="Assets\Assemblies\RG.ImGui.dll" />
+    <None Include="Assets\Assemblies\System.dll" />
+    <None Include="Assets\Assemblies\System.Runtime.Serialization.Formatters.Soap.dll" />
+    <None Include="Assets\Assemblies\Assembly-CSharp-firstpass.dll" />
+    <None Include="Assets\Assemblies\System.Drawing.dll" />
+    <None Include="Assets\Assemblies\System.Core.dll" />
+    <None Include="Assets\Assemblies\UniTask.DOTween.dll" />
+    <None Include="Assets\Assemblies\System.Windows.Forms.dll" />
+    <None Include="Assets\Assemblies\LZ4.dll" />
+    <None Include="Assets\About\About.xml" />
+    <None Include="Assets\Assemblies\Accessibility.dll" />
+    <None Include="Assets\Assemblies\Sentry.System.Collections.Immutable.dll" />
+    <None Include="Assets\Assemblies\ch.sycoforge.Flares.dll" />
+    <None Include="Assets\Assemblies\Novell.Directory.Ldap.dll" />
+    <None Include="Assets\Assemblies\System.Runtime.Serialization.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -306,23 +385,212 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    <Reference Include="Accessibility">
+      <HintPath>Assets\Assemblies\Accessibility.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    <Reference Include="Sentry">
+      <HintPath>Assets\Assemblies\Sentry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>Assets\Assemblies\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>Assets\Assemblies\UniTask.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>Assets\Assemblies\System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Assets\Assemblies\Sentry.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Selectors">
+      <HintPath>Assets\Assemblies\System.IdentityModel.Selectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Text.Json">
+      <HintPath>Assets\Assemblies\Sentry.System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Threading.Tasks.Extensions">
+      <HintPath>Assets\Assemblies\Sentry.System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design">
+      <HintPath>Assets\Assemblies\System.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="io.sentry.unity.runtime">
+      <HintPath>Assets\Assemblies\io.sentry.unity.runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>Assets\Assemblies\UniTask.DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>Assets\Assemblies\UniTask.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>Assets\Assemblies\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="ch.sycoforge.Flares">
+      <HintPath>Assets\Assemblies\ch.sycoforge.Flares.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>Assets\Assemblies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>Assets\Assemblies\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <HintPath>Assets\Assemblies\System.Drawing.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <HintPath>Assets\Assemblies\System.EnterpriseServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="RW.RocketNet">
+      <HintPath>Assets\Assemblies\RW.RocketNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Text.Encodings.Web">
+      <HintPath>Assets\Assemblies\Sentry.System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="RG.ImGui.Unity">
+      <HintPath>Assets\Assemblies\RG.ImGui.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Reflection.Metadata">
+      <HintPath>Assets\Assemblies\Sentry.System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Assemblies\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Memory">
+      <HintPath>Assets\Assemblies\Sentry.System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="NaughtyAttributes.Test">
+      <HintPath>Assets\Assemblies\NaughtyAttributes.Test.dll</HintPath>
+    </Reference>
+    <Reference Include="ch.sycoforge.Logging">
+      <HintPath>Assets\Assemblies\ch.sycoforge.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>Assets\Assemblies\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <HintPath>Assets\Assemblies\System.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <HintPath>Assets\Assemblies\System.Web.ApplicationServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Unity">
+      <HintPath>Assets\Assemblies\Sentry.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="ch.sycoforge.Unity.Runtime">
+      <HintPath>Assets\Assemblies\ch.sycoforge.Unity.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Assemblies\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>Assets\Assemblies\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets\Assemblies\Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>Assets\Assemblies\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>Assets\Assemblies\Assembly-CSharp-firstpass.dll</HintPath>
+    <Reference Include="NaughtyAttributes.Core">
+      <HintPath>Assets\Assemblies\NaughtyAttributes.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>Assets\Assemblies\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Assets\Assemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>Assets\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Numerics.Vectors">
+      <HintPath>Assets\Assemblies\Sentry.System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Assets\Assemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets\Assemblies\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Novell.Directory.Ldap">
+      <HintPath>Assets\Assemblies\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Buffers">
+      <HintPath>Assets\Assemblies\Sentry.System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>Assets\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Unity.Native">
+      <HintPath>Assets\Assemblies\Sentry.Unity.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <HintPath>Assets\Assemblies\System.Runtime.Serialization.Formatters.Soap.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>Assets\Assemblies\UniTask.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="StationeersMods.Interface">
       <HintPath>Assets\StationeersMods\StationeersMods.Interface.dll</HintPath>
     </Reference>
-    <Reference Include="0Harmony">
-      <HintPath>Assets\Assemblies\0Harmony.dll</HintPath>
+    <Reference Include="Sentry.System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Assemblies\Sentry.System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>Assets\Assemblies\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>Assets\Assemblies\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Collections.Immutable">
+      <HintPath>Assets\Assemblies\Sentry.System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="RG.ImGui">
+      <HintPath>Assets\Assemblies\RG.ImGui.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>Assets\Assemblies\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>Assets\Assemblies\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebBrowser">
+      <HintPath>Assets\Assemblies\Mono.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets\Assemblies\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Internals">
+      <HintPath>Assets\Assemblies\System.ServiceModel.Internals.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <HintPath>Assets\Assemblies\System.DirectoryServices.dll</HintPath>
+    </Reference>
+    <Reference Include="StationeersMods.Shared">
+      <HintPath>Assets\StationeersMods\StationeersMods.Shared.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -690,14 +958,66 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VSSettingsProvider">
+      <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Bundled Cables.csproj">
+      <Project>{321B5864-752F-DC39-13EB-7DDD1AFEC867}</Project>
+      <Name>Bundled Cables</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
