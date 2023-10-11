@@ -4,7 +4,12 @@ $UnityAssembliesDirectory = (Get-Item -LiteralPath (Join-Path -Path $PSScriptRoo
 $PatchAssembliesDirectory = (Get-Item -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath "BundledCables" -AdditionalChildPath @("libs")));
 
 Function Get-StationeersDirectory() {
-  Return (Get-Item -LiteralPath (Join-Path -Path "E:\" -ChildPath "SteamLibrary" -AdditionalChildPath @("SteamApps", "common", "Stationeers")));
+  If (Test-Path -LiteralPath (Join-Path -Path "E:\" -ChildPath "SteamLibrary" -AdditionalChildPath @("SteamApps", "common", "Stationeers")) -PathType Leaf) {
+    Return (Get-Item -LiteralPath (Join-Path -Path "E:\" -ChildPath "SteamLibrary" -AdditionalChildPath @("SteamApps", "common", "Stationeers")));
+  } Else {
+    $GetStationeersDir = (Read-Host -Prompt "Path to the Stationeers install:");
+    Return (Get-Item -LiteralPath $GetStationeersDir);
+  }
 }
 
 $PatchAssemblyFiles = @{
