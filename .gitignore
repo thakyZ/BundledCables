@@ -571,3 +571,4 @@ TempArtifacts/
 **/libs/*.dll
 **/Assemblies/*.dll
 **/Assemblies/*.dll.meta
+/.soup
