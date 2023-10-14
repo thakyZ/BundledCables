@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3791121895
+CRC: 3377568523
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bb0b644422c513a6bbf233df9a502c6d
+    Hash: f9fef311b5ffdf51bfc3960035ba46ad
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e54524bf6e0994e2b068e9bb64ac1e86
+    Hash: 6ee18cdf909cb5231e13deacb1af74fd
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,7 +17,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
@@ -29,11 +35,19 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48f7ba0efc5f91c4bbe19d1f9419e7b4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 157
   Script: {instanceID: 0}
 - Class: 196
   Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/ExampleModScene.unity
-Dependencies: []
+Dependencies:
+- C:/Users/thaky/Development/Git/Games/Stationeers/BundledCables/BundledCables-Unity/Temp/Bundled
+  Cables/Windows/bundled cables.assets

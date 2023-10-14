@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4249444626
+CRC: 1596651568
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 87771763d94df041f6314c0578d74dc0
+    Hash: 84d97f93da10e5a47ea6f402cabaa535
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c75b208c9e44018b248d5266611906fe
+    Hash: 04d34d01c8127c6655c7a001a526c0af
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,10 +26,22 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 48f7ba0efc5f91c4bbe19d1f9419e7b4, type: 3}
+- Class: 114
   Script: {fileID: 1200417347, guid: ccbc10cb06b9d5647a8075378f0aa440, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-SerializeReferenceClassIdentifiers: []
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Assets.Scripts.GridSystem.Grid3
+- AssemblyName: Assembly-CSharp
+  ClassName: Assets.Scripts.Objects.ColorSwatch
+- AssemblyName: Assembly-CSharp
+  ClassName: Assets.Scripts.Objects.IndestructableDamageState
+- AssemblyName: Assembly-CSharp
+  ClassName: Assets.Scripts.Objects.Structure/ToolBasic
 Assets:
 - Assets/PrefabInstance/CableBundledCorner4Burnt.prefab
 - Assets/PrefabInstance/CableBundledJunction6.prefab

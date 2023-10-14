@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2730740964
+CRC: 240321526
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -11,4 +11,5 @@ AssetBundleManifest:
         Dependency_0: bundled-cables
     Info_2:
       Name: bundled cables.scenes
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: bundled cables.assets
